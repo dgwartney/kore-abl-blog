@@ -159,6 +159,39 @@ The workflow file is at `.github/workflows/pages-deploy.yml`. It only rebuilds w
 
 ---
 
+## Custom Domain (Optional)
+
+To serve the blog from your own domain instead of `dgwartney.github.io/kore-abl-blog`:
+
+**1. Add a DNS record with your provider**
+
+For a subdomain (e.g. `blog.yourdomain.com`):
+
+| Type | Host | Value |
+|------|------|-------|
+| `CNAME` | `blog` | `dgwartney.github.io` |
+
+For an apex domain (`yourdomain.com`), add four A records pointing to GitHub's IPs (`185.199.108–111.153`).
+
+**2. Register the domain with GitHub**
+
+```bash
+gh api repos/dgwartney/kore-abl-blog/pages \
+  --method PUT \
+  -f cname=blog.yourdomain.com
+```
+
+**3. Update `_config.yml`**
+
+```yaml
+url: "https://blog.yourdomain.com"
+baseurl: ""   # clear this when using a custom domain
+```
+
+Commit and push — the workflow redeploys automatically. HTTPS is provisioned by GitHub via Let's Encrypt once DNS propagates.
+
+---
+
 ## Local Build Commands
 
 ```bash
@@ -176,6 +209,5 @@ JEKYLL_ENV=production bundle exec jekyll build
 
 ## Related
 
-- [ABL Developer Guide](https://github.com/dgwartney/kore-abl-developer-guide) — the companion reference PDF
 - [Chirpy Theme Docs](https://chirpy.cotes.page) — full theme documentation
 - [Jekyll Docs](https://jekyllrb.com/docs/) — Jekyll reference
