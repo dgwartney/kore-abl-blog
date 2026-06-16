@@ -1,4 +1,5 @@
 ---
+layout: page
 title: About
 icon: fas fa-info-circle
 order: 4
@@ -20,6 +21,6 @@ Topics include:
 
 ## About the Author
 
-**Dave Gwartney** is a Solutions Engineer at Kore AI, specializing in agentic application design and the ABL platform. He maintains the [ABL Developer Guide](https://github.com/dgwartney/kore-abl-developer-guide) and writes here about patterns and practices learned in the field.
+**Dave Gwartney** is an AI Solutions Architect at Kore AI, specializing in agentic application design and the ABL platform. He writes here about patterns and practices learned in the field.
 
-Questions or feedback? Open an issue on [GitHub](https://github.com/dgwartney/kore-abl-blog).
+Questions or feedback? Email [david.gwartney@kore.com](mailto:david.gwartney@kore.com).

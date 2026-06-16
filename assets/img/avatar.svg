@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112" width="112" height="112">
+  <rect width="112" height="112" rx="20" fill="#0d1117"/>
+  <text
+    x="56"
+    y="62"
+    font-family="'Courier New', Courier, monospace"
+    font-size="38"
+    font-weight="bold"
+    fill="#4ade80"
+    text-anchor="middle"
+    dominant-baseline="middle">&gt;_</text>
+</svg>

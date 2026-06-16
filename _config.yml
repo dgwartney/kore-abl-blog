@@ -13,9 +13,11 @@ github:
 
 social:
   name: Dave Gwartney
-  email: dave.gwartney@kore.ai
+  email: david.gwartney@kore.com
   links:
     - https://github.com/dgwartney
+
+avatar: /assets/img/avatar.svg
 
 timezone: America/Los_Angeles
 lang: en
@@ -35,6 +37,12 @@ paginate: 10
 
 # Permalinks
 permalink: /posts/:title/
+
+# Collections
+collections:
+  tabs:
+    output: true
+    sort_by: order
 
 # Build settings
 future: false
