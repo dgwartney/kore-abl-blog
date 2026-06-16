@@ -24,4 +24,4 @@ Topics you can expect:
 
 Good documentation tells you what's possible. This blog tries to tell you what's worth doing — and occasionally what to avoid. Posts focus on the why behind design choices, not just the how.
 
-Posts drop whenever there's something worth sharing. If you have a pattern, war story, or question worth exploring, the [GitHub repo](https://github.com/dgwartney/kore-abl-blog) is open.
+Posts go up whenever there's something worth sharing. If you have a pattern, war story, or question worth exploring, reach out at [david.gwartney@gmail.com](mailto:david.gwartney@gmail.com).
