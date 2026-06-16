@@ -1,0 +1,78 @@
+title: "ABL Developer Blog"
+tagline: "Patterns, practices, and insights for building intelligent agents with ABL"
+description: >-
+  A developer blog covering Agent Blueprint Language (ABL) on the Kore AI
+  platform — tutorials, design patterns, multi-agent orchestration, and
+  real-world agent engineering.
+
+url: "https://dgwartney.github.io"
+baseurl: "/kore-abl-blog"
+
+github:
+  username: dgwartney
+
+social:
+  name: Dave Gwartney
+  email: dave.gwartney@kore.ai
+  links:
+    - https://github.com/dgwartney
+
+timezone: America/Los_Angeles
+lang: en
+
+theme: jekyll-theme-chirpy
+
+# Chirpy appearance
+# light | dark | (leave empty to follow OS preference)
+theme_mode:
+
+toc: true
+comments:
+  active: ""  # set to 'giscus' or 'disqus' to enable
+
+# Pagination
+paginate: 10
+
+# Permalinks
+permalink: /posts/:title/
+
+# Build settings
+future: false
+show_excerpts: true
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
+# Front matter defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: "Dave Gwartney"
+      toc: true
+      comments: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - bin/
+  - vendor/
+  - "*.sh"
+  - .sass-cache/
+  - .jekyll-cache/
