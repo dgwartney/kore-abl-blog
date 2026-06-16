@@ -9,7 +9,7 @@ Agent Blueprint Language (ABL) is the declarative language at the heart of the K
 
 ## What This Blog Covers
 
-This isn't a rehash of the [ABL Developer Guide](https://github.com/dgwartney/kore-abl-developer-guide). That's the reference. This is where the field notes go: patterns that emerge from real projects, edge cases the spec glosses over, and design decisions worth thinking through out loud.
+This is where the field notes go: patterns that emerge from real projects, edge cases that aren't obvious from the spec, and design decisions worth thinking through out loud.
 
 Topics you can expect:
 
@@ -20,8 +20,8 @@ Topics you can expect:
 - **Safety & guardrails** — output validation, scope limiting, graceful degradation
 - **Testing & debugging** — observable agents, transcript analysis, eval harnesses
 
-## The Reference, Alongside the Practice
+## Practice Over Theory
 
-Good language documentation tells you what's possible. This blog tries to tell you what's worth doing — and occasionally what to avoid. The ABL Developer Guide lives next door; these posts assume you have it open.
+Good documentation tells you what's possible. This blog tries to tell you what's worth doing — and occasionally what to avoid. Posts focus on the why behind design choices, not just the how.
 
 Posts drop whenever there's something worth sharing. If you have a pattern, war story, or question worth exploring, the [GitHub repo](https://github.com/dgwartney/kore-abl-blog) is open.
