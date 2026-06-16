@@ -5,8 +5,8 @@ description: >-
   platform — tutorials, design patterns, multi-agent orchestration, and
   real-world agent engineering.
 
-url: "https://dgwartney.github.io"
-baseurl: "/kore-abl-blog"
+url: "https://abl.dgwartney.net"
+baseurl: ""
 
 github:
   username: dgwartney
